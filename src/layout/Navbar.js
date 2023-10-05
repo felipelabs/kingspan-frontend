@@ -7,7 +7,7 @@ export default function Navbar() {
 
       <nav className="navbar navbar-expand-lg  navbar-dark bg-primary">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">Kingspan App</a>
+          <Link className="navbar-brand" to={"/"}>Kingspan App</Link>
           <button className="navbar-toggler" type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
