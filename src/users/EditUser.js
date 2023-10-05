@@ -46,7 +46,7 @@ export default function EditUser() {
               type={"text"}
               className="form-control"
               placeholder="Digite seu nome"
-              name='name'
+              name="name"
               value={name}
               onChange={(e) => onInputChange(e)}
             />
@@ -57,7 +57,7 @@ export default function EditUser() {
               type={"text"}
               className="form-control"
               placeholder="Digite seu Login"
-              name='username'
+              name="username"
               value={username}
               onChange={(e) => onInputChange(e)}
             />
@@ -68,7 +68,7 @@ export default function EditUser() {
               type={"text"}
               className="form-control"
               placeholder="Digite seu email"
-              name='email'
+              name="email"
               value={email}
               onChange={(e) => onInputChange(e)}
             />

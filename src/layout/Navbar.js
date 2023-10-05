@@ -19,7 +19,6 @@ export default function Navbar() {
           <Link className="btn btn-outline-light" to="/adduser">Adicionar Usuário</Link>
         </div>
       </nav>
-
     </div>
   )
 }

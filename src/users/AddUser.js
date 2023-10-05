@@ -24,7 +24,6 @@ export default function AddUser() {
     navigate("/");
   }
 
-
   return (<div className="container">
     <div className="row">
       <div className="col-md-6 offset-md-3 border rounded p-4 mt-2 shadow">
@@ -36,7 +35,7 @@ export default function AddUser() {
               type={"text"}
               className="form-control"
               placeholder="Digite seu nome"
-              name='name'
+              name="name"
               value={name}
               onChange={(e) => onInputChange(e)}
             />
@@ -47,13 +46,13 @@ export default function AddUser() {
               type={"text"}
               className="form-control"
               placeholder="Digite seu Login"
-              name='username'
+              name="username"
               value={username}
               onChange={(e) => onInputChange(e)}
             />
           </div>
           <div className="mb-3">
-            <label htmlFor='Email' className="form-label">Email</label>
+            <label htmlFor="Email" className="form-label">Email</label>
             <input
               type={"text"}
               className="form-control"

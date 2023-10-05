@@ -27,27 +27,26 @@ export default function ViewUser() {
         <div className="col-md-6 offset-md-3 border rounded p-4 mt-2 shadow">
           <h2 className="text-center m-4"> Visualizar Usuário</h2>
           
-          <div className='card'>
-            <div className='card-header'>
+          <div className="card">
+            <div className="card-header">
               Informações do Usuário: {user.id}
-              <ul className='list-group list-group-flush'>
-                <li className='list-group-item'>
+              <ul className="list-group list-group-flush">
+                <li className="list-group-item">
                   <b>Nome:</b>
                   {user.name}
                 </li>
-                <li className='list-group-item'>
+                <li className="list-group-item">
                   <b>Login:</b>
                   {user.username}
                 </li>
-                <li className='list-group-item'>
+                <li className="list-group-item">
                   <b>Email:</b>
                   {user.email}
                 </li>
               </ul>
             </div>
           </div>
-          <Link className='btn btn-primary my-2' to={"/"}>Inicio</Link>
-
+          <Link className="btn btn-primary my-2" to={"/"}>Inicio</Link>
         </div>
       </div>
     </div>

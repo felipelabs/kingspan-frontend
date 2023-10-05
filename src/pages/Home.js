@@ -42,15 +42,13 @@ export default function Home() {
                   <td>{users.name}</td>
                   <td>{users.username}</td>
                   <td>{users.email}</td>
-
                   <td>
-                    <Link className='btn btn-primary mx-2' to={`/viewuser/${users.id}`}>Buscar</Link>
-                    <Link className='btn btn-outline-primary mx-2' to={`/edituser/${users.id}`}>Editar</Link>
-                    <button className='btn btn-danger mx-2'
+                    <Link className="btn btn-primary mx-2" to={`/viewuser/${users.id}`}>Buscar</Link>
+                    <Link className="btn btn-outline-primary mx-2" to={`/edituser/${users.id}`}>Editar</Link>
+                    <button className="btn btn-danger mx-2"
                     onClick={() =>{deleteUsers(users.id)}}
                     >Apagar</button>
-                  </td>
-                
+                  </td>                
                 </tr>                
               ))
             }
